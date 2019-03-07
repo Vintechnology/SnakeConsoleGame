@@ -16,7 +16,7 @@ ScreenBuffer::SetupBufferScreen(const int &width, const int &height);
 `width` and `height` are the area on the screen you wish to draw on.
 You just need to do this once in a program.
 
-ScreenBuffer treats console window as a width x height matrix which indeces are from 0 to width-1 (or height-1 on the y axis).
+ScreenBuffer treats console window as a `width x height` matrix which indeces are from 0 to width-1 (or height-1 on the y axis).
 _Note_: the (0,0) position is your **top left** corner on the screen. As y increases, we will go down in the console windows. As x increases, we will move to the right of the console windows.
 
 ## Draw to buffer
